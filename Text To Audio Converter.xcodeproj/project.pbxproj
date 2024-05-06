@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1402F7B52C38FAA00088450D /* PreimumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1402F7B42C38FAA00088450D /* PreimumViewController.swift */; };
+		148828FF2BE91CC000DB4501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148828FE2BE91CC000DB4501 /* AppDelegate.swift */; };
+		148829012BE91CC000DB4501 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148829002BE91CC000DB4501 /* SceneDelegate.swift */; };
+		148829032BE91CC000DB4501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148829022BE91CC000DB4501 /* ViewController.swift */; };
+		148829062BE91CC000DB4501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148829042BE91CC000DB4501 /* Main.storyboard */; };
+		148829082BE91CC300DB4501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148829072BE91CC300DB4501 /* Assets.xcassets */; };
+		1488290B2BE91CC300DB4501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148829092BE91CC300DB4501 /* LaunchScreen.storyboard */; };
+		148829162BE91CC300DB4501 /* Text_To_Audio_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148829152BE91CC300DB4501 /* Text_To_Audio_ConverterTests.swift */; };
+		148829202BE91CC300DB4501 /* Text_To_Audio_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1488291F2BE91CC300DB4501 /* Text_To_Audio_ConverterUITests.swift */; };
+		148829222BE91CC300DB4501 /* Text_To_Audio_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148829212BE91CC300DB4501 /* Text_To_Audio_ConverterUITestsLaunchTests.swift */; };
+		149FC0562C394BA100C2922F /* WordpowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149FC0552C394BA100C2922F /* WordpowerViewController.swift */; };
+		149FC0582C394C9400C2922F /* WordPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149FC0572C394C9400C2922F /* WordPlayViewController.swift */; };
+		149FC05A2C394CA900C2922F /* Text2FunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149FC0592C394CA900C2922F /* Text2FunViewController.swift */; };
+		149FC05C2C394D9100C2922F /* ShartheloveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149FC05B2C394D9100C2922F /* ShartheloveViewController.swift */; };
+		149FC05E2C394DD700C2922F /* TextToplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149FC05D2C394DD700C2922F /* TextToplayViewController.swift */; };
+		149FC0602C394DE600C2922F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149FC05F2C394DE600C2922F /* SettingsViewController.swift */; };
+		14D3BD3F2C39A23E002A0A8F /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = 14D3BD3E2C39A23E002A0A8F /* Cosmos */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		148829122BE91CC300DB4501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148828F32BE91CC000DB4501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148828FA2BE91CC000DB4501;
+			remoteInfo = "Text To Audio Converter";
+		};
+		1488291C2BE91CC300DB4501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148828F32BE91CC000DB4501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148828FA2BE91CC000DB4501;
+			remoteInfo = "Text To Audio Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1402F7B42C38FAA00088450D /* PreimumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreimumViewController.swift; sourceTree = "<group>"; };
+		148828FB2BE91CC000DB4501 /* Text To Audio Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text To Audio Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148828FE2BE91CC000DB4501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		148829002BE91CC000DB4501 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		148829022BE91CC000DB4501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		148829052BE91CC000DB4501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		148829072BE91CC300DB4501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1488290A2BE91CC300DB4501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1488290C2BE91CC300DB4501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148829112BE91CC300DB4501 /* Text To Audio ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text To Audio ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148829152BE91CC300DB4501 /* Text_To_Audio_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_To_Audio_ConverterTests.swift; sourceTree = "<group>"; };
+		1488291B2BE91CC300DB4501 /* Text To Audio ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text To Audio ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1488291F2BE91CC300DB4501 /* Text_To_Audio_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_To_Audio_ConverterUITests.swift; sourceTree = "<group>"; };
+		148829212BE91CC300DB4501 /* Text_To_Audio_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_To_Audio_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		149FC0552C394BA100C2922F /* WordpowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordpowerViewController.swift; sourceTree = "<group>"; };
+		149FC0572C394C9400C2922F /* WordPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPlayViewController.swift; sourceTree = "<group>"; };
+		149FC0592C394CA900C2922F /* Text2FunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2FunViewController.swift; sourceTree = "<group>"; };
+		149FC05B2C394D9100C2922F /* ShartheloveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShartheloveViewController.swift; sourceTree = "<group>"; };
+		149FC05D2C394DD700C2922F /* TextToplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToplayViewController.swift; sourceTree = "<group>"; };
+		149FC05F2C394DE600C2922F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		148828F82BE91CC000DB4501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D3BD3F2C39A23E002A0A8F /* Cosmos in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1488290E2BE91CC300DB4501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148829182BE91CC300DB4501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148828F22BE91CC000DB4501 = {
+			isa = PBXGroup;
+			children = (
+				148828FD2BE91CC000DB4501 /* Text To Audio Converter */,
+				148829142BE91CC300DB4501 /* Text To Audio ConverterTests */,
+				1488291E2BE91CC300DB4501 /* Text To Audio ConverterUITests */,
+				148828FC2BE91CC000DB4501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		148828FC2BE91CC000DB4501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148828FB2BE91CC000DB4501 /* Text To Audio Converter.app */,
+				148829112BE91CC300DB4501 /* Text To Audio ConverterTests.xctest */,
+				1488291B2BE91CC300DB4501 /* Text To Audio ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148828FD2BE91CC000DB4501 /* Text To Audio Converter */ = {
+			isa = PBXGroup;
+			children = (
+				148828FE2BE91CC000DB4501 /* AppDelegate.swift */,
+				148829002BE91CC000DB4501 /* SceneDelegate.swift */,
+				148829022BE91CC000DB4501 /* ViewController.swift */,
+				149FC0552C394BA100C2922F /* WordpowerViewController.swift */,
+				149FC0572C394C9400C2922F /* WordPlayViewController.swift */,
+				149FC0592C394CA900C2922F /* Text2FunViewController.swift */,
+				149FC05B2C394D9100C2922F /* ShartheloveViewController.swift */,
+				1402F7B42C38FAA00088450D /* PreimumViewController.swift */,
+				149FC05D2C394DD700C2922F /* TextToplayViewController.swift */,
+				149FC05F2C394DE600C2922F /* SettingsViewController.swift */,
+				148829042BE91CC000DB4501 /* Main.storyboard */,
+				148829072BE91CC300DB4501 /* Assets.xcassets */,
+				148829092BE91CC300DB4501 /* LaunchScreen.storyboard */,
+				1488290C2BE91CC300DB4501 /* Info.plist */,
+			);
+			path = "Text To Audio Converter";
+			sourceTree = "<group>";
+		};
+		148829142BE91CC300DB4501 /* Text To Audio ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				148829152BE91CC300DB4501 /* Text_To_Audio_ConverterTests.swift */,
+			);
+			path = "Text To Audio ConverterTests";
+			sourceTree = "<group>";
+		};
+		1488291E2BE91CC300DB4501 /* Text To Audio ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1488291F2BE91CC300DB4501 /* Text_To_Audio_ConverterUITests.swift */,
+				148829212BE91CC300DB4501 /* Text_To_Audio_ConverterUITestsLaunchTests.swift */,
+			);
+			path = "Text To Audio ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		148828FA2BE91CC000DB4501 /* Text To Audio Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148829252BE91CC300DB4501 /* Build configuration list for PBXNativeTarget "Text To Audio Converter" */;
+			buildPhases = (
+				148828F72BE91CC000DB4501 /* Sources */,
+				148828F82BE91CC000DB4501 /* Frameworks */,
+				148828F92BE91CC000DB4501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Text To Audio Converter";
+			packageProductDependencies = (
+				14D3BD3E2C39A23E002A0A8F /* Cosmos */,
+			);
+			productName = "Text To Audio Converter";
+			productReference = 148828FB2BE91CC000DB4501 /* Text To Audio Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		148829102BE91CC300DB4501 /* Text To Audio ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148829282BE91CC300DB4501 /* Build configuration list for PBXNativeTarget "Text To Audio ConverterTests" */;
+			buildPhases = (
+				1488290D2BE91CC300DB4501 /* Sources */,
+				1488290E2BE91CC300DB4501 /* Frameworks */,
+				1488290F2BE91CC300DB4501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148829132BE91CC300DB4501 /* PBXTargetDependency */,
+			);
+			name = "Text To Audio ConverterTests";
+			productName = "Text To Audio ConverterTests";
+			productReference = 148829112BE91CC300DB4501 /* Text To Audio ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1488291A2BE91CC300DB4501 /* Text To Audio ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1488292B2BE91CC300DB4501 /* Build configuration list for PBXNativeTarget "Text To Audio ConverterUITests" */;
+			buildPhases = (
+				148829172BE91CC300DB4501 /* Sources */,
+				148829182BE91CC300DB4501 /* Frameworks */,
+				148829192BE91CC300DB4501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1488291D2BE91CC300DB4501 /* PBXTargetDependency */,
+			);
+			name = "Text To Audio ConverterUITests";
+			productName = "Text To Audio ConverterUITests";
+			productReference = 1488291B2BE91CC300DB4501 /* Text To Audio ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148828F32BE91CC000DB4501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					148828FA2BE91CC000DB4501 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					148829102BE91CC300DB4501 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 148828FA2BE91CC000DB4501;
+					};
+					1488291A2BE91CC300DB4501 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 148828FA2BE91CC000DB4501;
+					};
+				};
+			};
+			buildConfigurationList = 148828F62BE91CC000DB4501 /* Build configuration list for PBXProject "Text To Audio Converter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 148828F22BE91CC000DB4501;
+			packageReferences = (
+				14D3BD3D2C39A23E002A0A8F /* XCRemoteSwiftPackageReference "Cosmos" */,
+			);
+			productRefGroup = 148828FC2BE91CC000DB4501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				148828FA2BE91CC000DB4501 /* Text To Audio Converter */,
+				148829102BE91CC300DB4501 /* Text To Audio ConverterTests */,
+				1488291A2BE91CC300DB4501 /* Text To Audio ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		148828F92BE91CC000DB4501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1488290B2BE91CC300DB4501 /* LaunchScreen.storyboard in Resources */,
+				148829082BE91CC300DB4501 /* Assets.xcassets in Resources */,
+				148829062BE91CC000DB4501 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1488290F2BE91CC300DB4501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148829192BE91CC300DB4501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148828F72BE91CC000DB4501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149FC0562C394BA100C2922F /* WordpowerViewController.swift in Sources */,
+				149FC05A2C394CA900C2922F /* Text2FunViewController.swift in Sources */,
+				149FC05E2C394DD700C2922F /* TextToplayViewController.swift in Sources */,
+				149FC0602C394DE600C2922F /* SettingsViewController.swift in Sources */,
+				1402F7B52C38FAA00088450D /* PreimumViewController.swift in Sources */,
+				149FC0582C394C9400C2922F /* WordPlayViewController.swift in Sources */,
+				148829032BE91CC000DB4501 /* ViewController.swift in Sources */,
+				148828FF2BE91CC000DB4501 /* AppDelegate.swift in Sources */,
+				149FC05C2C394D9100C2922F /* ShartheloveViewController.swift in Sources */,
+				148829012BE91CC000DB4501 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1488290D2BE91CC300DB4501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148829162BE91CC300DB4501 /* Text_To_Audio_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148829172BE91CC300DB4501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148829222BE91CC300DB4501 /* Text_To_Audio_ConverterUITestsLaunchTests.swift in Sources */,
+				148829202BE91CC300DB4501 /* Text_To_Audio_ConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		148829132BE91CC300DB4501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148828FA2BE91CC000DB4501 /* Text To Audio Converter */;
+			targetProxy = 148829122BE91CC300DB4501 /* PBXContainerItemProxy */;
+		};
+		1488291D2BE91CC300DB4501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148828FA2BE91CC000DB4501 /* Text To Audio Converter */;
+			targetProxy = 1488291C2BE91CC300DB4501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		148829042BE91CC000DB4501 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148829052BE91CC000DB4501 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		148829092BE91CC300DB4501 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1488290A2BE91CC300DB4501 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		148829232BE91CC300DB4501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		148829242BE91CC300DB4501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148829262BE91CC300DB4501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65S2994UR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Text To Audio Converter/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rnw.Text-To-Audio-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		148829272BE91CC300DB4501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65S2994UR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Text To Audio Converter/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rnw.Text-To-Audio-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		148829292BE91CC300DB4501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65S2994UR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rnw.Text-To-Audio-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text To Audio Converter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Text To Audio Converter";
+			};
+			name = Debug;
+		};
+		1488292A2BE91CC300DB4501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65S2994UR9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rnw.Text-To-Audio-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text To Audio Converter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Text To Audio Converter";
+			};
+			name = Release;
+		};
+		1488292C2BE91CC300DB4501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rnw.Text-To-Audio-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Text To Audio Converter";
+			};
+			name = Debug;
+		};
+		1488292D2BE91CC300DB4501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rnw.Text-To-Audio-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Text To Audio Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148828F62BE91CC000DB4501 /* Build configuration list for PBXProject "Text To Audio Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148829232BE91CC300DB4501 /* Debug */,
+				148829242BE91CC300DB4501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148829252BE91CC300DB4501 /* Build configuration list for PBXNativeTarget "Text To Audio Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148829262BE91CC300DB4501 /* Debug */,
+				148829272BE91CC300DB4501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148829282BE91CC300DB4501 /* Build configuration list for PBXNativeTarget "Text To Audio ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148829292BE91CC300DB4501 /* Debug */,
+				1488292A2BE91CC300DB4501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1488292B2BE91CC300DB4501 /* Build configuration list for PBXNativeTarget "Text To Audio ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1488292C2BE91CC300DB4501 /* Debug */,
+				1488292D2BE91CC300DB4501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14D3BD3D2C39A23E002A0A8F /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 25.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14D3BD3E2C39A23E002A0A8F /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14D3BD3D2C39A23E002A0A8F /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 148828F32BE91CC000DB4501 /* Project object */;
+}
